@@ -1,0 +1,110 @@
+body {
+  font-family: "Courier New", "Courier", monospace;
+  font-size: 0.8em;
+  background-image: url('../images/paper.png');
+  background-repeat: repeat;
+  color: #666666;
+  line-height:125%;
+  padding-top: 40px;
+}
+
+/* unvisited link */
+a:link, a:visited, a:active, a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+a.page-link:link, a.page-link:visited, a.page-link:active {
+  font-weight: bold;
+  color: #C00;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+a.page-link:hover {
+  border-bottom: 4px solid #C00;
+}
+
+.sub {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  color: #000;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 4em 4em;
+  max-width: 400px;
+}
+
+.header {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Anonymous Pro';
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+.header > a:link, .header > a:hover, .header > a:visited, .header > a:active {
+  border-bottom: none;
+  color: #000;
+}
+
+.navlist {
+  padding-left: 0px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+
+}
+
+.navlist > li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.posts {
+  padding-left: 0px;
+}
+
+.posts > li {
+  list-style-type: none;
+}
+
+.highlight {
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+footer {
+  padding-top: 50px;
+  color: #999;
+}
+
+.meta {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #000;
+
+}

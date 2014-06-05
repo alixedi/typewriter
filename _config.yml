@@ -1,0 +1,21 @@
+# Site settings
+title: "Typewriter"
+description: "So I was feeling nostalgic..."
+baseurl: ""
+url: "http://alixedi.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+
+# Links
+links:
+  - title: "About"
+    url: /About
+  - title: "Twitter"
+    url: http://twitter.com/alixedi
+  - title: "Github"
+    url: http://github.com/alixedi
+  - title: "RSS"
+    url: /feed.xml
