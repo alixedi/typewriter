@@ -12,7 +12,7 @@ highlighter: pygments
 # Links
 links:
   - title: "About"
-    url: /About
+    url: /about
   - title: "Twitter"
     url: http://twitter.com/alixedi
   - title: "Github"
