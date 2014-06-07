@@ -1,11 +1,10 @@
 body {
-  font-family: "Courier New", "Courier", monospace;
-  font-size: 0.8em;
+  font-family: monospace;
+  font-size: 0.9em;
   background-image: url('../images/paper.png');
   background-repeat: repeat;
   color: #666666;
   line-height:125%;
-  padding-top: 40px;
 }
 
 /* unvisited link */
@@ -28,10 +27,11 @@ a.page-link:hover {
 .sub {
   padding-top: 0px;
   margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #000;
 }
 
@@ -57,13 +57,15 @@ h3 {
 }
 
 .header {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  text-align: center;
+  margin: 80px 40px;
+}
+
+.header > h1 {
+  letter-spacing: 10px;
+  margin-bottom: 10px;
   text-decoration: none;
-  text-transform: lowercase;
-  font-family: 'Anonymous Pro';
-  font-size: 1.5em;
-  padding-bottom: 10px;
+  text-shadow: 1px 0px 0px #444;
 }
 
 .header > a:link, .header > a:hover, .header > a:visited, .header > a:active {
@@ -73,15 +75,14 @@ h3 {
 
 .navlist {
   padding-left: 0px;
-  padding-bottom: 50px;
-  padding-top: 10px;
-
+  padding-top: 0px;
+  margin-bottom: 20px;
 }
 
 .navlist > li {
   display: inline;
   list-style-type: none;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .posts {
@@ -98,12 +99,11 @@ h3 {
 }
 
 footer {
-  padding-top: 50px;
-  color: #999;
+  padding-top: 80px;
+  text-align: center;
 }
 
 .meta {
-  font-size: 0.7em;
   font-weight: bold;
   color: #000;
 

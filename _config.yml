@@ -1,6 +1,6 @@
 # Site settings
 title: "Typewriter"
-description: "So I was feeling nostalgic..."
+description: "So I was feeling nostalgic."
 baseurl: ""
 url: "http://alixedi.github.io"
 
@@ -11,11 +11,11 @@ highlighter: pygments
 
 # Links
 links:
-  - title: "About"
+  - title: "abt"
     url: /about
-  - title: "Twitter"
+  - title: "twt"
     url: http://twitter.com/alixedi
-  - title: "Github"
+  - title: "git"
     url: http://github.com/alixedi
-  - title: "RSS"
+  - title: "rss"
     url: /feed.xml
