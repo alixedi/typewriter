@@ -11,7 +11,7 @@ title: Home
       <h1 >{{ post.title }}</h1>
       <span>{{ post.date | date: "%b %-d, %Y" }}</span>
       {{ post.excerpt }}
-      <div style="text-align: center;">
+      <div class="continue">
         <a href="{{ post.url | prepend: site.baseurl }}">&bull;&bull;&bull;</a>
       </div>
     </li>
@@ -20,16 +20,20 @@ title: Home
 
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a class="page-link" href="/page{{ paginator.previous_page }}">prv</a>
+      {% if page == 2 %}
+        <a class="page-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">prv</a>
+      {% else %}
+        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">prv</a>
+      {% endif %}
     {% else %}
       <span class="page-link">prv</span>
     {% endif %}
+
     {% if paginator.next_page %}
-      <a class="page-link" href="/page{{ paginator.next_page }}">nxt</a>
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">nxt</a>
     {% else %}
       <span class="page-link">nxt</span>
     {% endif %}
-
   </div>
 
 </div>

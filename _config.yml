@@ -8,7 +8,7 @@ url: "http://alixedi.github.io"
 markdown: kramdown
 permalink: pretty
 highlighter: pygments
-paginate: 5
+paginate: 3
 
 # Links
 links:
