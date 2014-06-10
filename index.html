@@ -1,46 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>Typewriter by alixedi</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
+
   <body>
-    <div class="wrapper">
+    <a id="forkme_banner" href="https://github.com/alixedi/typewriter">View on GitHub</a>
+    <div class="shell">
+
       <header>
-        <h1>Typewriter</h1>
-        <p>A simple and beautiful theme for Jekyll</p>
-
-        <p class="view"><a href="https://github.com/alixedi/typewriter">View the Project on GitHub <small>alixedi/typewriter</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/alixedi/typewriter/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/alixedi/typewriter/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/alixedi/typewriter">View On <strong>GitHub</strong></a></li>
-        </ul>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Typewriter</h1>
+            <h2>A simple and beautiful theme for Jekyll</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
       </header>
-      <section>
-        <h1>
-<a name="typewriter" class="anchor" href="#typewriter"><span class="octicon octicon-link"></span></a>typewriter</h1>
 
-<p>A simple and beautiful theme for Jekyll.</p>
-
-<p><img src="https://raw.githubusercontent.com/alixedi/typewriter/master/images/screenshot.png" alt="Screenshot"></p>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/alixedi/typewriter/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/alixedi/typewriter/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
       </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p><img src="https://raw.githubusercontent.com/alixedi/typewriter/master/images/screenshot.png" alt="Screenshot"></p>
+      </section>
+
       <footer>
-        <p>This project is maintained by <a href="https://github.com/alixedi">alixedi</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/alixedi">alixedi</a> can be found on <a href="https://github.com/alixedi/typewriter">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
   </body>
 </html>
