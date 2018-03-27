@@ -4,9 +4,6 @@ title: (Github) 깃헙 페이지 Jekyll, Ruby 필요없이 5분안에 생성 + �
 date:   2018-03-27 23:52:38
 ---
 
-
----
-
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
