@@ -1,9 +1,9 @@
 ---
 layout: post
 title: (Github) 깃헙 페이지 Jekyll, Ruby 필요없이 5분안에 생성 + 새 글 작성 하기
-category : Git
-date : 2018-03-27
-tags : [git, github, github page]
+date:   2018-03-27 23:52:38
+---
+
 
 ---
 
