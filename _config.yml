@@ -1,8 +1,8 @@
 # Site settings
-title: "Typewriter"
-description: "So I was feeling nostalgic."
+title: "1z3r091"
+description: "is typing..."
 baseurl: ""
-url: "http://alixedi.github.io"
+url: "http://1z3r091.github.io"
 
 # Build settings
 markdown: kramdown
@@ -14,9 +14,5 @@ paginate: 3
 links:
   - title: "abt"
     url: /about
-  - title: "twt"
-    url: http://twitter.com/alixedi
   - title: "git"
-    url: http://github.com/alixedi
-  - title: "rss"
-    url: /feed.xml
+    url: http://github.com/1z3r091
